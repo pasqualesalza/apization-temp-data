@@ -16,8 +16,7 @@ public class APIzator5122948 {
   public static void array(
     Map<String, String> map,
     List<Map<String, String>> data
-  )
-    throws RuntimeException {
+  ) throws Exception {
     // etc
     // returns "demo"
     map.get("name");

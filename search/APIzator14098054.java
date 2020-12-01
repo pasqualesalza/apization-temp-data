@@ -11,7 +11,7 @@ import java.util.ArrayList;
 public class APIzator14098054 {
 
   public static void addString(String s1, String s2, String s3, String s4)
-    throws RuntimeException {
+    throws Exception {
     ArrayList<String> ar = new ArrayList<String>();
     ar.add(s1);
     ar.add(s2);

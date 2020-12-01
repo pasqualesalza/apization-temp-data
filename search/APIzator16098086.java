@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator16098086 {
 
-  public static void printValue(double dexp) throws RuntimeException {
+  public static void printValue(double dexp) throws Exception {
     System.out.printf("dexp: %f\n", dexp);
     System.out.printf("dexp: %.0f\n", dexp);
   }

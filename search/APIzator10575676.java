@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator10575676 {
 
-  public static void see(String text) throws RuntimeException {
+  public static void see(String text) throws Exception {
     if (text.contains("[a-zA-Z]+") == false && text.length() > 2) {}
     if (text.matches("[0-9]+") && text.length() > 2) {}
   }

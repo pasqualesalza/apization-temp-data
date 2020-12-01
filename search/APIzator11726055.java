@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator11726055 {
 
-  public static void string(String s) throws RuntimeException {
+  public static void string(String s) throws Exception {
     String[] arr = s.split(" ");
     for (String ss : arr) {
       System.out.println(ss);

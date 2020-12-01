@@ -11,7 +11,7 @@ import java.util.Date;
  */
 public class APIzator5165471 {
 
-  public static Date setTime() throws RuntimeException {
+  public static Date setTime() throws Exception {
     Calendar cal = Calendar.getInstance();
     cal.set(Calendar.HOUR_OF_DAY, 17);
     cal.set(Calendar.MINUTE, 30);

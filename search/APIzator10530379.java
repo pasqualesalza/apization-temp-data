@@ -12,13 +12,10 @@ import java.util.List;
  */
 public class APIzator10530379 {
 
-  public class StringArrayTest {
-
-    public static void array(String[] words) {
-      List<String> wordList = Arrays.asList(words);
-      for (String e : wordList) {
-        System.out.println(e);
-      }
+  public static void array(String[] words) {
+    List<String> wordList = Arrays.asList(words);
+    for (String e : wordList) {
+      System.out.println(e);
     }
   }
 }

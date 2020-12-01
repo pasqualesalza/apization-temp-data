@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator3844602 {
 
-  public static void make() throws RuntimeException {
+  public static void make() throws Exception {
     System.out.print("\"Hello\"");
   }
 }

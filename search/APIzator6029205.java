@@ -15,6 +15,8 @@ import org.apache.http.message.BasicNameValuePair;
 /**
  * Using HttpClient and HttpPost in Android with post parameters
  *
+ * classpath: httpcore-4.4.10:httpclient-4.5.6:android-4.1.1.4
+ *
  * @author APIzator
  * @see <a href="https://stackoverflow.com/a/6029205">https://stackoverflow.com/a/6029205</a>
  */
@@ -24,8 +26,7 @@ public class APIzator6029205 {
     String lastupdate,
     String connection,
     ArrayList<NameValuePair> nameValuePairs
-  )
-    throws RuntimeException {
+  ) throws Exception {
     InputStream is = null;
     try {
       HttpClient httpclient = new DefaultHttpClient();

@@ -13,7 +13,7 @@ import java.nio.charset.StandardCharsets;
 public class APIzator782183 {
 
   public static InputStream convertString(String exampleString)
-    throws RuntimeException {
+    throws Exception {
     return new ByteArrayInputStream(
       exampleString.getBytes(StandardCharsets.UTF_8)
     );

@@ -13,7 +13,7 @@ import java.util.Set;
 public class APIzator4040014 {
 
   public static void createNumber(int numbersNeeded, int max)
-    throws RuntimeException {
+    throws Exception {
     if (max < numbersNeeded) {
       throw new IllegalArgumentException(
         "Can't ask for more numbers than are available"

@@ -10,7 +10,7 @@ import java.nio.charset.Charset;
  */
 public class APIzator17355227 {
 
-  public static String bytebuffer(String k) throws RuntimeException {
+  public static String bytebuffer(String k) throws Exception {
     byte[] bytes = k.getBytes(Charset.forName("UTF-8"));
     return new String(bytes, Charset.forName("UTF-8"));
   }

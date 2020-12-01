@@ -11,24 +11,20 @@ import java.util.Comparator;
  */
 public class APIzator4908052 {
 
-  public class Asdf {
-
-    public static void sortArray(String[][] data) {
-      Arrays.sort(
-        data,
-        new Comparator<String[]>() {
-
-          @Override
-          public int compare(final String[] entry1, final String[] entry2) {
-            final String time1 = entry1[0];
-            final String time2 = entry2[0];
-            return time1.compareTo(time2);
-          }
+  public static void sortArray(String[][] data) {
+    Arrays.sort(
+      data,
+      new Comparator<String[]>() {
+        @Override
+        public int compare(final String[] entry1, final String[] entry2) {
+          final String time1 = entry1[0];
+          final String time2 = entry2[0];
+          return time1.compareTo(time2);
         }
-      );
-      for (final String[] s : data) {
-        System.out.println(s[0] + " " + s[1]);
       }
+    );
+    for (final String[] s : data) {
+      System.out.println(s[0] + " " + s[1]);
     }
   }
 }

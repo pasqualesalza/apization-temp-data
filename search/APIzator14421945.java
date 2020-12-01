@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class APIzator14421945 {
 
-  public static void arraylist(int x) throws RuntimeException {
+  public static void arraylist(int x) throws Exception {
     List<Integer> list = new ArrayList<>();
     list.add(x);
   }

@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator14442189 {
 
-  public static void replaceBracket(String str) throws RuntimeException {
+  public static void replaceBracket(String str) throws Exception {
     str = str.replaceAll("\\[", "").replaceAll("\\]", "");
   }
 }

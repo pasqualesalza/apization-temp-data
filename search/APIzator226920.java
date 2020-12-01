@@ -11,7 +11,7 @@ import java.util.Date;
  */
 public class APIzator226920 {
 
-  public static void checkDate(Date yourDate) throws RuntimeException {
+  public static void checkDate(Date yourDate) throws Exception {
     Calendar cal = Calendar.getInstance();
     cal.setLenient(false);
     cal.setTime(yourDate);

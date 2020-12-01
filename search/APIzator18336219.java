@@ -6,6 +6,8 @@ import android.widget.CheckBox;
 /**
  * How to check if android checkbox is checked within its onClick method (declared in XML)?
  *
+ * classpath: android-4.1.1.4
+ *
  * @author APIzator
  * @see <a href="https://stackoverflow.com/a/18336219">https://stackoverflow.com/a/18336219</a>
  */

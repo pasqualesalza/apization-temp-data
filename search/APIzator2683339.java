@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator2683339 {
 
-  public static void getQuery(int preparedStatement) throws RuntimeException {
+  public static void getQuery(int preparedStatement) throws Exception {
     System.out.println(preparedStatement);
   }
 }

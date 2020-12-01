@@ -10,7 +10,7 @@ import java.util.Calendar;
  */
 public class APIzator136434 {
 
-  public static int getValue() throws RuntimeException {
+  public static int getValue() throws Exception {
     return Calendar.getInstance().get(Calendar.YEAR);
   }
 }

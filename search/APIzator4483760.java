@@ -8,5 +8,5 @@ package com.stackoverflow.api;
  */
 public class APIzator4483760 {
 
-  public static void be(Long b) throws RuntimeException {}
+  public static void be(Long b) throws Exception {}
 }

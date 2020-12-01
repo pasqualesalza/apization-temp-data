@@ -10,7 +10,7 @@ import java.util.Calendar;
  */
 public class APIzator3838661 {
 
-  public static long difference() throws RuntimeException {
+  public static long difference() throws Exception {
     Calendar thatDay = Calendar.getInstance();
     thatDay.set(Calendar.DAY_OF_MONTH, 25);
     // 0-11 so 1 less

@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
  */
 public class APIzator4662265 {
 
-  public static void extractSubstring(String mydata) throws RuntimeException {
+  public static void extractSubstring(String mydata) throws Exception {
     Pattern pattern = Pattern.compile("'(.*?)'");
     Matcher matcher = pattern.matcher(mydata);
     if (matcher.find()) {

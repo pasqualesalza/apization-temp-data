@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator8842505 {
 
-  public static void raiseNumber() throws RuntimeException {
+  public static void raiseNumber() throws Exception {
     double height;
     double weight;
   }

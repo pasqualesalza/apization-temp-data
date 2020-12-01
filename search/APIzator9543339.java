@@ -11,7 +11,7 @@ import javax.swing.JFrame;
  */
 public class APIzator9543339 {
 
-  public static void positionForm(Component mainPanel) throws RuntimeException {
+  public static void positionForm(Component mainPanel) throws Exception {
     JFrame frame = new JFrame("FooRendererTest");
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     // or whatever...

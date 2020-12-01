@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator2576044 {
 
-  public static void assignment(float[] values) throws RuntimeException {
+  public static void assignment(float[] values) throws Exception {
     values = new float[3];
     values = new float[] { 0.1f, 0.2f, 0.3f };
   }

@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
  */
 public class APIzator4067825 {
 
-  public static boolean findSpace(String s) throws RuntimeException {
+  public static boolean findSpace(String s) throws Exception {
     Pattern pattern = Pattern.compile("\\s");
     Matcher matcher = pattern.matcher(s);
     boolean found = matcher.find();

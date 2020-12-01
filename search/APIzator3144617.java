@@ -8,5 +8,5 @@ package com.stackoverflow.api;
  */
 public class APIzator3144617 {
 
-  public static void produceDouble(double num) throws RuntimeException {}
+  public static void produceDouble(double num) throws Exception {}
 }

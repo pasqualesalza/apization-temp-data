@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator4540700 {
 
-  public static void round(int a) throws RuntimeException {
+  public static void round(int a) throws Exception {
     System.out.println(a / 100);
     System.out.println(Math.ceil(a / 100));
     System.out.println(a / 100.0);

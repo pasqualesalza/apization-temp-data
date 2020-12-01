@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class APIzator6536128 {
 
-  public static List<Integer> copy(int oldList) throws RuntimeException {
+  public static List<Integer> copy(int oldList) throws Exception {
     return new ArrayList<>(oldList);
   }
 }

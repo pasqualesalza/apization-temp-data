@@ -9,7 +9,7 @@ package com.stackoverflow.api;
 public class APIzator8846218 {
 
   public static String removeCharacter(String loginToken)
-    throws RuntimeException {
+    throws Exception {
     return loginToken.substring(1, loginToken.length() - 1);
   }
 }

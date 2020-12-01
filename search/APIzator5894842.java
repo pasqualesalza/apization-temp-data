@@ -12,13 +12,12 @@ import java.util.List;
  */
 public class APIzator5894842 {
 
-  public static void sortArraylist(List list) throws RuntimeException {
+  public static void sortArraylist(List list) throws Exception {
     Collections.sort(list);
     Collections.reverse(list);
     Collections.sort(
       list,
       new Comparator<Long>() {
-
         public int compare(Long o1, Long o2) {
           return o2.compareTo(o1);
         }

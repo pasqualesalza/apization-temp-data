@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator17942294 {
 
-  public static String be(String str, String s1) throws RuntimeException {
+  public static String be(String str, String s1) throws Exception {
     // assigns a new reference to the same string "knowledge"
     String s = str;
     str = str.concat(" base");

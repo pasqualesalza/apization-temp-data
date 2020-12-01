@@ -15,8 +15,7 @@ public class APIzator15039537 {
     int numberofstrings,
     String mystring,
     ArrayList<String> mylist
-  )
-    throws RuntimeException {
+  ) throws Exception {
     String[] myarray = new String[numberofstrings];
   }
 }

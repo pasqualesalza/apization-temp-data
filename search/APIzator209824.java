@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator209824 {
 
-  public static java.net.URL changeIcon() throws RuntimeException {
+  public static java.net.URL changeIcon() throws Exception {
     return ClassLoader.getSystemResource("com/xyz/resources/camera.png");
   }
 }

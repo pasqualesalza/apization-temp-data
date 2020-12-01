@@ -8,11 +8,8 @@ package com.stackoverflow.api;
  */
 public class APIzator5163852 {
 
-  public class Test {
-
-    public static String getCharacter(String str1) {
-      String string = str1;
-      return string.substring(string.length() - 1);
-    }
+  public static String getCharacter(String str1) {
+    String string = str1;
+    return string.substring(string.length() - 1);
   }
 }

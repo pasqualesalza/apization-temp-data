@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
  */
 public class APIzator8689130 {
 
-  public static void joptionpane(int dialogButton) throws RuntimeException {
+  public static void joptionpane(int dialogButton) throws Exception {
     int dialogResult = JOptionPane.showConfirmDialog(
       null,
       "Would You Like to Save your Previous Note First?",

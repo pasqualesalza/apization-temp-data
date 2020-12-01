@@ -10,7 +10,7 @@ import java.text.MessageFormat;
  */
 public class APIzator6432100 {
 
-  public static void formatString() throws RuntimeException {
+  public static void formatString() throws Exception {
     MessageFormat.format("String is \"{1}\", number is {0}.", 42, "foobar");
   }
 }

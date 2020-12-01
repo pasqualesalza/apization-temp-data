@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator3342668 {
 
-  public static void getException() throws RuntimeException {
+  public static void getException() throws Exception {
     try {
       // 1000 milliseconds is one second.
       Thread.sleep(1000);

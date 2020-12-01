@@ -11,7 +11,7 @@ import java.math.MathContext;
  */
 public class APIzator12395405 {
 
-  public static BigDecimal convert(int d) throws RuntimeException {
+  public static BigDecimal convert(int d) throws Exception {
     return new BigDecimal(d, MathContext.DECIMAL64);
   }
 }

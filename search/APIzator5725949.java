@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator5725949 {
 
-  public static String capitalizeLetter(String input) throws RuntimeException {
+  public static String capitalizeLetter(String input) throws Exception {
     return input.substring(0, 1).toUpperCase() + input.substring(1);
   }
 }

@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator196834 {
 
-  public static void be(String s) throws RuntimeException {
+  public static void be(String s) throws Exception {
     for (int i = 0; i < s.length(); i++) {
       char c = s.charAt(i);
       // Process char

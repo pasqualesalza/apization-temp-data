@@ -13,7 +13,7 @@ import java.util.TreeSet;
 public class APIzator2490486 {
 
   public static void useJava(Set<Integer> numbers, int sum)
-    throws RuntimeException {
+    throws Exception {
     // "[2, 5]"
     System.out.println(numbers);
     // "false"

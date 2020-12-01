@@ -17,7 +17,6 @@ public class APIzator9148992 {
   public static void test() throws InterruptedException, ExecutionException {
     ExecutorService executor = Executors.newSingleThreadExecutor();
     Callable<Integer> callable = new Callable<Integer>() {
-
       @Override
       public Integer call() {
         return 2;

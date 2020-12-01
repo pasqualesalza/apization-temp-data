@@ -13,7 +13,7 @@ import java.util.List;
 public class APIzator2965808 {
 
   public static List<String> getUnsupportedoperationexception(String split)
-    throws RuntimeException {
+    throws Exception {
     return new LinkedList<String>(Arrays.asList(split));
   }
 }

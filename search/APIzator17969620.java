@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
  */
 public class APIzator17969620 {
 
-  public static void capturingGroups(String line) throws RuntimeException {
+  public static void capturingGroups(String line) throws Exception {
     Pattern pattern = Pattern.compile("(.*?)(\\d+)(.*)");
     Matcher matcher = pattern.matcher(line);
     while (matcher.find()) {

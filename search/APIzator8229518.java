@@ -13,7 +13,7 @@ import java.util.Map;
 public class APIzator8229518 {
 
   public static Map<Object, ArrayList<Object>> hashmap()
-    throws RuntimeException {
+    throws Exception {
     return new HashMap<>();
   }
 }

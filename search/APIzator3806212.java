@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator3806212 {
 
-  public static void reverseValue() throws RuntimeException {
+  public static void reverseValue() throws Exception {
     int last_digit = 0;
     int input = 0;
     int reversedNum = 0;

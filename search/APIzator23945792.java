@@ -12,7 +12,7 @@ import java.time.ZonedDateTime;
  */
 public class APIzator23945792 {
 
-  public static long getMillisecond() throws RuntimeException {
+  public static long getMillisecond() throws Exception {
     LocalDateTime ldt = LocalDateTime.of(2014, 5, 29, 18, 41, 16);
     ZonedDateTime zdt = ldt.atZone(ZoneId.of("America/Los_Angeles"));
     return zdt.toInstant().toEpochMilli();

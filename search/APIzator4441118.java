@@ -8,5 +8,5 @@ package com.stackoverflow.api;
  */
 public class APIzator4441118 {
 
-  public static void countElement(int[] x, int[] y) throws RuntimeException {}
+  public static void countElement(int[] x, int[] y) throws Exception {}
 }

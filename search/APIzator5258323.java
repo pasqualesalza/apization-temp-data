@@ -8,17 +8,13 @@ package com.stackoverflow.api;
  */
 public class APIzator5258323 {
 
-  public class JarExample {
-
-    public static void makeFile() {
-      javax.swing.SwingUtilities.invokeLater(
-        new Runnable() {
-
-          public void run() {
-            // your logic here
-          }
+  public static void makeFile() {
+    javax.swing.SwingUtilities.invokeLater(
+      new Runnable() {
+        public void run() {
+          // your logic here
         }
-      );
-    }
+      }
+    );
   }
 }

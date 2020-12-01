@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator2654897 {
 
-  public static int roundDouble(int doubleVar) throws RuntimeException {
+  public static int roundDouble(int doubleVar) throws Exception {
     return (int) Math.round(doubleVar);
   }
 }

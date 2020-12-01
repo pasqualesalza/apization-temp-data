@@ -9,7 +9,7 @@ package com.stackoverflow.api;
 public class APIzator2745239 {
 
   public static void output(int string2, int string1, int int1)
-    throws RuntimeException {
+    throws Exception {
     System.out.format("%32s%10d%16s", string1, int1, string2);
   }
 }

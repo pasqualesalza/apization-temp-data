@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator14974126 {
 
-  public static String extractDigits(String str) throws RuntimeException {
+  public static String extractDigits(String str) throws Exception {
     return str.replaceAll("[^0-9]", "");
   }
 }

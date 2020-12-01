@@ -10,7 +10,7 @@ import java.util.Scanner;
  */
 public class APIzator5287561 {
 
-  public static void getInput() throws RuntimeException {
+  public static void getInput() throws Exception {
     // Reading from System.in
     Scanner reader = new Scanner(System.in);
     System.out.println("Enter a number: ");

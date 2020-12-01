@@ -10,7 +10,7 @@ import java.util.Date;
  */
 public class APIzator2010290 {
 
-  public static Date equivalent() throws RuntimeException {
+  public static Date equivalent() throws Exception {
     return new Date();
   }
 }

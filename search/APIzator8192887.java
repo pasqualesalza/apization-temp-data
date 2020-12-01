@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class APIzator8192887 {
 
-  public static List<String> search(List<String> list) throws RuntimeException {
+  public static List<String> search(List<String> list) throws Exception {
     List<String> listClone = new ArrayList<String>();
     for (String string : list) {
       if (string.matches("(?i)(bea).*")) {

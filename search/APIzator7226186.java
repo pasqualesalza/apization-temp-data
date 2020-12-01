@@ -10,7 +10,7 @@ import java.util.Calendar;
  */
 public class APIzator7226186 {
 
-  public static String getDay() throws RuntimeException {
+  public static String getDay() throws Exception {
     Calendar cal = Calendar.getInstance();
     int dayOfMonth = cal.get(Calendar.DAY_OF_MONTH);
     return String.valueOf(dayOfMonth);

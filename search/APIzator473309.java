@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator473309 {
 
-  public static void padInteger(int yournumber) throws RuntimeException {
+  public static void padInteger(int yournumber) throws Exception {
     String.format("%05d", yournumber);
   }
 }

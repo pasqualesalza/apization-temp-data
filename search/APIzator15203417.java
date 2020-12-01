@@ -11,7 +11,7 @@ import java.util.HashMap;
  */
 public class APIzator15203417 {
 
-  public static String be() throws RuntimeException {
+  public static String be() throws Exception {
     // primitive
     System.out.println(int.class.getName());
     System.out.println(int.class.getCanonicalName());

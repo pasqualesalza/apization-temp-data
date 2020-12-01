@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator2608682 {
 
-  public static void trim(String string) throws RuntimeException {
+  public static void trim(String string) throws Exception {
     string = string.replaceAll("^\"|\"$", "");
   }
 }

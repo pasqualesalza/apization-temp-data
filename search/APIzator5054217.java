@@ -10,7 +10,7 @@ import java.util.Locale;
  */
 public class APIzator5054217 {
 
-  public static Locale changeSeparator() throws RuntimeException {
+  public static Locale changeSeparator() throws Exception {
     return Locale.getDefault();
   }
 }

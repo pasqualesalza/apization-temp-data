@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator8499776 {
 
-  public static void trimString(String s) throws RuntimeException {
+  public static void trimString(String s) throws Exception {
     s = s.substring(0, Math.min(s.length(), 10));
   }
 }

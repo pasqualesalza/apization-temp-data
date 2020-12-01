@@ -12,7 +12,7 @@ import java.util.List;
  */
 public class APIzator4167148 {
 
-  public static List<Integer> be(Collection strings) throws RuntimeException {
+  public static List<Integer> be(Collection strings) throws Exception {
     List<String> list = new LinkedList();
     return new LinkedList<>(strings);
   }

@@ -11,7 +11,7 @@ import java.math.BigDecimal;
 public class APIzator50543 {
 
   public static void formatNumber(int n, double f, double r, int decimalPlaces)
-    throws RuntimeException {
+    throws Exception {
     // r is 5.1234
     System.out.println(r);
     BigDecimal bd = new BigDecimal(r);

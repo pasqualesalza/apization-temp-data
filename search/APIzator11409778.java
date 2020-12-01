@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator11409778 {
 
-  public static void createTriangle() throws RuntimeException {
+  public static void createTriangle() throws Exception {
     for (int i = 1; i < 10; i += 2) {
       for (int j = 0; j < i; j++) {
         System.out.print("*");

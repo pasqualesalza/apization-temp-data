@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator2143505 {
 
-  public static void castDouble() throws RuntimeException {
+  public static void castDouble() throws Exception {
     // Prints 99
     System.out.println((int) (99.9999));
   }

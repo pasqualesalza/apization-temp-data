@@ -12,7 +12,7 @@ import java.io.PrintWriter;
  */
 public class APIzator4069104 {
 
-  public static void writeString(String str1) throws RuntimeException {
+  public static void writeString(String str1) throws Exception {
     try (PrintWriter p = new PrintWriter(new FileOutputStream(str1, true))) {
       p.println("Hello");
     } catch (FileNotFoundException e1) {

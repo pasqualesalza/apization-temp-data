@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator5351516 {
 
-  public static long difference(int diff) throws RuntimeException {
+  public static long difference(int diff) throws Exception {
     long diffSeconds = diff / 1000 % 60;
     return diff / (60 * 1000) % 60;
   }

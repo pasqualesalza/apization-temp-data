@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator14602089 {
 
-  public static String[] removeValue(String data) throws RuntimeException {
+  public static String[] removeValue(String data) throws Exception {
     return data.split("\\|", -1);
   }
 }

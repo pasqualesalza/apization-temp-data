@@ -9,7 +9,7 @@ package com.stackoverflow.api;
 public class APIzator8652958 {
 
   public static int convertString(int firstCharNumber, int secondCharNumber)
-    throws RuntimeException {
+    throws Exception {
     return (firstCharNumber << 4) | secondCharNumber;
   }
 }

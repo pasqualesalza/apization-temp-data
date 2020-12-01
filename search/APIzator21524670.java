@@ -9,7 +9,7 @@ package com.stackoverflow.api;
 public class APIzator21524670 {
 
   public static String[] splittingString(String rat_values)
-    throws RuntimeException {
+    throws Exception {
     return rat_values.split("\\|");
   }
 }

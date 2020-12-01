@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator787705 {
 
-  public static void make(double v, int t, int s) throws RuntimeException {
+  public static void make(double v, int t, int s) throws Exception {
     v = (float) s / t;
   }
 }

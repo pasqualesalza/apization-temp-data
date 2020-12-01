@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator1538767 {
 
-  public static boolean convertObject() throws RuntimeException {
+  public static boolean convertObject() throws Exception {
     Boolean boolean1 = Boolean.valueOf("true");
     return Boolean.parseBoolean("true");
   }

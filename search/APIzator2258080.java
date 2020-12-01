@@ -8,11 +8,10 @@ package com.stackoverflow.api;
  */
 public class APIzator2258080 {
 
-  public static void runFunction() throws RuntimeException {
+  public static void runFunction() throws Exception {
     new java.util.Timer()
     .schedule(
         new java.util.TimerTask() {
-
           @Override
           public void run() {
             // your code here

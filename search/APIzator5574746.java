@@ -10,7 +10,7 @@ import java.util.Calendar;
  */
 public class APIzator5574746 {
 
-  public static void be() throws RuntimeException {
+  public static void be() throws Exception {
     Calendar calendar = Calendar.getInstance();
     int day = calendar.get(Calendar.DAY_OF_WEEK);
     switch (day) {

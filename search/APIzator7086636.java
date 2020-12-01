@@ -11,9 +11,8 @@ import java.net.PasswordAuthentication;
  */
 public class APIzator7086636 {
 
-  public static void authentication() throws RuntimeException {
+  public static void authentication() throws Exception {
     Authenticator myAuth = new Authenticator() {
-
       @Override
       protected PasswordAuthentication getPasswordAuthentication() {
         return new PasswordAuthentication("german", "german".toCharArray());

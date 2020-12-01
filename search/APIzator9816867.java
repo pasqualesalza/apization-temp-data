@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator9816867 {
 
-  public static String removeTime(String input) throws RuntimeException {
+  public static String removeTime(String input) throws Exception {
     return input.substring(0, 10);
   }
 }

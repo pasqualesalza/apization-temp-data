@@ -8,5 +8,5 @@ package com.stackoverflow.api;
  */
 public class APIzator576863 {
 
-  public static void fillArray(int[] a) throws RuntimeException {}
+  public static void fillArray(int[] a) throws Exception {}
 }

@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator10910970 {
 
-  public static String work() throws RuntimeException {
+  public static String work() throws Exception {
     System.out.println(Integer.toBinaryString(2 << 11));
     System.out.println(Integer.toBinaryString(2 << 22));
     return Integer.toBinaryString(2 << 33);

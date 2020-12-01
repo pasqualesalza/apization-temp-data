@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator1094894 {
 
-  public static int be() throws RuntimeException {
+  public static int be() throws Exception {
     int x = 5, y = 5;
     // outputs 6
     System.out.println(++x);

@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
  */
 public class APIzator600740 {
 
-  public static void useJava() throws RuntimeException {
+  public static void useJava() throws Exception {
     Pattern MY_PATTERN = Pattern.compile("\\[(.*?)\\]");
     Matcher m = MY_PATTERN.matcher("FOO[BAR]");
     while (m.find()) {

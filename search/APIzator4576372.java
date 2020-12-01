@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator4576372 {
 
-  public static void removeOccurrence(String str) throws RuntimeException {
+  public static void removeOccurrence(String str) throws Exception {
     str = str.replace("X", "");
   }
 }

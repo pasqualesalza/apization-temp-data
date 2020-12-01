@@ -11,7 +11,7 @@ import java.io.OutputStream;
  */
 public class APIzator4157429 {
 
-  public static void executeCommand(String command) throws RuntimeException {
+  public static void executeCommand(String command) throws Exception {
     try {
       Process child = Runtime.getRuntime().exec(command);
       // Get output stream to write from it

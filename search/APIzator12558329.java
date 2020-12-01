@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator12558329 {
 
-  public static void check(int x) throws RuntimeException {
+  public static void check(int x) throws Exception {
     if (x == (int) x) {
       // Number is integer
     }

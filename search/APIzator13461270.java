@@ -12,7 +12,7 @@ import java.math.RoundingMode;
  */
 public class APIzator13461270 {
 
-  public static void setscale() throws RuntimeException {
+  public static void setscale() throws Exception {
     // 1.
     new BigDecimal("35.3456").round(new MathContext(4, RoundingMode.HALF_UP));
     // result = 35.35

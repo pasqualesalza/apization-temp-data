@@ -9,7 +9,7 @@ package com.stackoverflow.api;
 public class APIzator9125274 {
 
   public static void removeChar(int name, int extension, String path)
-    throws RuntimeException {
+    throws Exception {
     path = path.substring(0, path.length() - 5);
     if (path.endsWith(".null")) {
       path = path.substring(0, path.length() - 5);

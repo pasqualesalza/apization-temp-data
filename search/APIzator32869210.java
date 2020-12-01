@@ -10,7 +10,7 @@ import static java.lang.Math.toIntExact;
  */
 public class APIzator32869210 {
 
-  public static int cast(long foo) throws RuntimeException {
+  public static int cast(long foo) throws Exception {
     return toIntExact(foo);
   }
 }

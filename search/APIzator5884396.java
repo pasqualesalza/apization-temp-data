@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator5884396 {
 
-  public static void insertCharacter(int j) throws RuntimeException {
+  public static void insertCharacter(int j) throws Exception {
     String x = Integer.toString(j);
     x = x.substring(0, 4) + "." + x.substring(4, x.length());
   }

@@ -10,7 +10,7 @@ import java.util.Random;
  */
 public class APIzator5887745 {
 
-  public static void getNumber() throws RuntimeException {
+  public static void getNumber() throws Exception {
     Random rand = new Random();
     int n = rand.nextInt(50) + 1;
     // 50 is the maximum and the 1 is our minimum

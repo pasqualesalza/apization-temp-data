@@ -13,7 +13,7 @@ import java.util.List;
 public class APIzator12853618 {
 
   public static void addElement(String speciesArr, String[] arr)
-    throws RuntimeException {
+    throws Exception {
     List<String> species = Arrays.asList(speciesArr);
     List<String> newList = Arrays.asList(arr);
     // Will throw `UnsupportedOperationException

@@ -10,7 +10,7 @@ import java.math.BigInteger;
  */
 public class APIzator849823 {
 
-  public static void number() throws RuntimeException {
+  public static void number() throws Exception {
     BigInteger reallyBig = new BigInteger("1234567890123456890");
     BigInteger notSoBig = new BigInteger("2743561234");
     reallyBig = reallyBig.add(notSoBig);

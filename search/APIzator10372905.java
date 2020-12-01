@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator10372905 {
 
-  public static void removeCharacter(String str) throws RuntimeException {
+  public static void removeCharacter(String str) throws Exception {
     str = str.replaceAll("[^\\d.]", "");
   }
 }

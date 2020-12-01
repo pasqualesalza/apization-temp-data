@@ -8,11 +8,8 @@ package com.stackoverflow.api;
  */
 public class APIzator3056864 {
 
-  public class Program {
-
-    public static String replaceN(String str) {
-      str = str.replaceAll("(\r\n|\n)", "<br />");
-      return str;
-    }
+  public static String replaceN(String str) {
+    str = str.replaceAll("(\r\n|\n)", "<br />");
+    return str;
   }
 }

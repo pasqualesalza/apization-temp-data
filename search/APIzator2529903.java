@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator2529903 {
 
-  public static void setAgent() throws RuntimeException {
+  public static void setAgent() throws Exception {
     System.setProperty("http.agent", "");
   }
 }

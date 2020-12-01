@@ -9,7 +9,7 @@ package com.stackoverflow.api;
 public class APIzator2429246 {
 
   public static String turnString(String someString, int someChar)
-    throws RuntimeException {
+    throws Exception {
     char firstLetter = someString.charAt(0);
     return String.valueOf(someChar);
   }

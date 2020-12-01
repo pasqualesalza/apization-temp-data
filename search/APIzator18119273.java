@@ -11,7 +11,7 @@ import java.util.Scanner;
  */
 public class APIzator18119273 {
 
-  public static void check() throws RuntimeException {
+  public static void check() throws Exception {
     Scanner sc = new Scanner(System.in);
     try {
       System.out.println("Please input an integer");

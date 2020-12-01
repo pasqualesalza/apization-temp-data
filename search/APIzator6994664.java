@@ -11,7 +11,7 @@ import java.io.PrintWriter;
  */
 public class APIzator6994664 {
 
-  public static void deleteContent(OutputStream file) throws RuntimeException {
+  public static void deleteContent(OutputStream file) throws Exception {
     PrintWriter writer = new PrintWriter(file);
     writer.print("");
     writer.close();

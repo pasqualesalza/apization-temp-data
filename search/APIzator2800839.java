@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator2800839 {
 
-  public static void removeZero(String[] in) throws RuntimeException {
+  public static void removeZero(String[] in) throws Exception {
     for (String s : in) {
       System.out.println("[" + s.replaceFirst("^0+(?!$)", "") + "]");
     }

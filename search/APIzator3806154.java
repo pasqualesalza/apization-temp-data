@@ -16,7 +16,7 @@ import java.util.List;
  */
 public class APIzator3806154 {
 
-  public static List<Integer> openFile(String str1) throws RuntimeException {
+  public static List<Integer> openFile(String str1) throws Exception {
     List<Integer> list = new ArrayList<Integer>();
     File file = new File(str1);
     BufferedReader reader = null;

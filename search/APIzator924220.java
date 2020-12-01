@@ -9,7 +9,7 @@ package com.stackoverflow.api;
 public class APIzator924220 {
 
   public static double convertNanosecond(int end, int start)
-    throws RuntimeException {
+    throws Exception {
     long elapsedTime = end - start;
     return (double) elapsedTime / 1000000000.0;
   }

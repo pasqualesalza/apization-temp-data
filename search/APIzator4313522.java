@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class APIzator4313522 {
 
-  public static String index(List<String> alist) throws RuntimeException {
+  public static String index(List<String> alist) throws Exception {
     return alist.get(1);
   }
 }

@@ -11,5 +11,5 @@ import java.util.List;
  */
 public class APIzator5061736 {
 
-  public static void addItem(List<Integer> x) throws RuntimeException {}
+  public static void addItem(List<Integer> x) throws Exception {}
 }

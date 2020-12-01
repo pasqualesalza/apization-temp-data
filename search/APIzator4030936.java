@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator4030936 {
 
-  public static void extractDigits(String str) throws RuntimeException {
+  public static void extractDigits(String str) throws Exception {
     str = str.replaceAll("\\D+", "");
   }
 }

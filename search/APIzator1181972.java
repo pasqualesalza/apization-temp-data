@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator1181972 {
 
-  public static String java(String one) throws RuntimeException {
+  public static String java(String one) throws Exception {
     String[] bits = one.split("-");
     return bits[bits.length - 1];
   }

@@ -9,7 +9,7 @@ package com.stackoverflow.api;
 public class APIzator4404149 {
 
   public static void check(String conta1, String lista)
-    throws RuntimeException {
+    throws Exception {
     if (lista.contains(conta1)) {
       System.out.println("Account found");
     } else {

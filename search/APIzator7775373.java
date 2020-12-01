@@ -9,7 +9,7 @@ package com.stackoverflow.api;
 public class APIzator7775373 {
 
   public static String removeSubstring(String helloWorld)
-    throws RuntimeException {
+    throws Exception {
     return helloWorld.replace("o", "");
   }
 }

@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator3371337 {
 
-  public static java.util.Date java(int timeStamp) throws RuntimeException {
+  public static java.util.Date java(int timeStamp) throws Exception {
     return new java.util.Date((long) timeStamp * 1000);
   }
 }

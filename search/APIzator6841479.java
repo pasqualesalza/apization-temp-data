@@ -10,14 +10,11 @@ import java.util.TimeZone;
  */
 public class APIzator6841479 {
 
-  public class Test {
-
-    public static void subtract(long startOf1900Utc) throws Exception {
-      for (String id : TimeZone.getAvailableIDs()) {
-        TimeZone zone = TimeZone.getTimeZone(id);
-        if (zone.getRawOffset() != zone.getOffset(startOf1900Utc - 1)) {
-          System.out.println(id);
-        }
+  public static void subtract(long startOf1900Utc) throws Exception {
+    for (String id : TimeZone.getAvailableIDs()) {
+      TimeZone zone = TimeZone.getTimeZone(id);
+      if (zone.getRawOffset() != zone.getOffset(startOf1900Utc - 1)) {
+        System.out.println(id);
       }
     }
   }

@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator3030913 {
 
-  public static void allow(String xml) throws RuntimeException {
+  public static void allow(String xml) throws Exception {
     xml = xml.trim().replaceFirst("^([\\W]+)<", "<");
   }
 }

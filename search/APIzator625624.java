@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 public class APIzator625624 {
 
   public static void convertMillisecond(int millis, int milliseconds)
-    throws RuntimeException {
+    throws Exception {
     String.format(
       "%d min, %d sec",
       TimeUnit.MILLISECONDS.toMinutes(millis),

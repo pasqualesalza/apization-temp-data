@@ -11,7 +11,7 @@ import java.util.Date;
  */
 public class APIzator5270292 {
 
-  public static int determineDay(Date yourDate) throws RuntimeException {
+  public static int determineDay(Date yourDate) throws Exception {
     Calendar c = Calendar.getInstance();
     c.setTime(yourDate);
     return c.get(Calendar.DAY_OF_WEEK);

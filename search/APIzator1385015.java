@@ -11,18 +11,14 @@ import java.io.FilenameFilter;
  */
 public class APIzator1385015 {
 
-  public class Filter {
-
-    public static File[] finder(String dirName) {
-      File dir = new File(dirName);
-      return dir.listFiles(
-        new FilenameFilter() {
-
-          public boolean accept(File dir, String filename) {
-            return filename.endsWith(".txt");
-          }
+  public static File[] finder(String dirName) {
+    File dir = new File(dirName);
+    return dir.listFiles(
+      new FilenameFilter() {
+        public boolean accept(File dir, String filename) {
+          return filename.endsWith(".txt");
         }
-      );
-    }
+      }
+    );
   }
 }

@@ -8,15 +8,13 @@ package com.stackoverflow.api;
  */
 public class APIzator6548203 {
 
-  public static void catchException() throws RuntimeException {
+  public static void catchException() throws Exception {
     Thread.UncaughtExceptionHandler h = new Thread.UncaughtExceptionHandler() {
-
       public void uncaughtException(Thread th, Throwable ex) {
         System.out.println("Uncaught exception: " + ex);
       }
     };
     Thread t = new Thread() {
-
       public void run() {
         System.out.println("Sleeping ...");
         try {

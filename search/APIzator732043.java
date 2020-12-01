@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator732043 {
 
-  public static long getUnixtime() throws RuntimeException {
+  public static long getUnixtime() throws Exception {
     return System.currentTimeMillis() / 1000L;
   }
 }

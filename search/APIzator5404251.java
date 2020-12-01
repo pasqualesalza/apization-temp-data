@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator5404251 {
 
-  public static int convertDouble() throws RuntimeException {
+  public static int convertDouble() throws Exception {
     Double d = new Double(1.23);
     return d.intValue();
   }

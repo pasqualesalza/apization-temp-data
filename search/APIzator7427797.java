@@ -12,7 +12,7 @@ import java.util.TreeMap;
 public class APIzator7427797 {
 
   public static void useInterface(Map<Integer, String> map)
-    throws RuntimeException {
+    throws Exception {
     // Iterate over them
     for (Map.Entry<Integer, String> entry : map.entrySet()) {
       System.out.println(entry.getKey() + " => " + entry.getValue());

@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
  */
 public class APIzator2367418 {
 
-  public static void extractNumber() throws RuntimeException {
+  public static void extractNumber() throws Exception {
     Pattern p = Pattern.compile("-?\\d+");
     Matcher m = p.matcher(
       "There are more than -2 and less than 12 numbers here"

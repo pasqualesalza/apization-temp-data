@@ -14,7 +14,7 @@ import java.util.Map;
 public class APIzator16516670 {
 
   public static void storeHashmap(List<String> arraylist1)
-    throws RuntimeException {
+    throws Exception {
     // This is the final list you need
     List<Map<String, List<String>>> list = new ArrayList<Map<String, List<String>>>();
     // This is one instance of the  map you want to store in the above list.

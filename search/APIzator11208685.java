@@ -7,6 +7,7 @@ package com.stackoverflow.api;
  * @see <a href="https://stackoverflow.com/a/11208685">https://stackoverflow.com/a/11208685</a>
  */
 public class APIzator11208685 {
+
   byte[] CDRIVES = hexStringToByteArray("e04fd020ea3a6910a2d808002b30309d");
 
   public static byte[] hexStringToByteArray(String s) {

@@ -9,7 +9,7 @@ package com.stackoverflow.api;
 public class APIzator5993823 {
 
   public static String[] useStringsplit(String pdfName)
-    throws RuntimeException {
+    throws Exception {
     return pdfName.split("-|\\.");
   }
 }

@@ -13,7 +13,7 @@ import java.util.Date;
 public class APIzator2517824 {
 
   public static boolean compareJavautil(Date date1, Date date2)
-    throws RuntimeException {
+    throws Exception {
     Calendar cal1 = Calendar.getInstance();
     Calendar cal2 = Calendar.getInstance();
     cal1.setTime(date1);

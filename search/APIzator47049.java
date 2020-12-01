@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator47049 {
 
-  public static String equivalent(int j, int i) throws RuntimeException {
+  public static String equivalent(int j, int i) throws Exception {
     // Store the formatted string in 'result'
     String result = String.format("%4d", i * j);
     return result;

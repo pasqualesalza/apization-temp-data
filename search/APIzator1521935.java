@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator1521935 {
 
-  public static void splittingWord(String str) throws RuntimeException {
+  public static void splittingWord(String str) throws Exception {
     for (int i = 0; i < str.length(); i++) {
       System.out.println(str.charAt(i));
     }

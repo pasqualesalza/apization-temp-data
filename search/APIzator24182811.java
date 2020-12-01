@@ -11,7 +11,7 @@ import java.util.Calendar;
 public class APIzator24182811 {
 
   public static int convertCurrenttimemillis(int timeStamp)
-    throws RuntimeException {
+    throws Exception {
     Calendar calendar = Calendar.getInstance();
     calendar.setTimeInMillis(timeStamp);
     int mYear = calendar.get(Calendar.YEAR);

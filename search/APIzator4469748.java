@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator4469748 {
 
-  public static void leave(String mystring) throws RuntimeException {
+  public static void leave(String mystring) throws Exception {
     String.format("%010d", Integer.parseInt(mystring));
   }
 }

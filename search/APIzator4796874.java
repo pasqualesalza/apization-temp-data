@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator4796874 {
 
-  public static double value(int value) throws RuntimeException {
+  public static double value(int value) throws Exception {
     return Math.round(value * 100.0) / 100.0;
   }
 }

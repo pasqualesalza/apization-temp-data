@@ -11,7 +11,7 @@ import java.util.Arrays;
  */
 public class APIzator2761019 {
 
-  public static void initialization() throws RuntimeException {
+  public static void initialization() throws Exception {
     new ArrayList<Integer>(Arrays.asList(1, 2, 3, 5, 8, 13, 21));
   }
 }

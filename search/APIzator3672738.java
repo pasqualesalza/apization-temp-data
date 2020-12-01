@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator3672738 {
 
-  public static double formatNumber(String number) throws RuntimeException {
+  public static double formatNumber(String number) throws Exception {
     return Double.parseDouble(number);
   }
 }

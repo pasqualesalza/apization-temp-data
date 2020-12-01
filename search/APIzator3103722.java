@@ -13,15 +13,12 @@ import java.security.NoSuchAlgorithmException;
  */
 public class APIzator3103722 {
 
-  public class CryptoHash {
-
-    public static String string(String text) throws NoSuchAlgorithmException {
-      MessageDigest md = MessageDigest.getInstance("SHA-256");
-      // Change this to UTF-16 if needed
-      md.update(text.getBytes(StandardCharsets.UTF_8));
-      byte[] digest = md.digest();
-      String hex = String.format("%064x", new BigInteger(1, digest));
-      return hex;
-    }
+  public static String string(String text) throws NoSuchAlgorithmException {
+    MessageDigest md = MessageDigest.getInstance("SHA-256");
+    // Change this to UTF-16 if needed
+    md.update(text.getBytes(StandardCharsets.UTF_8));
+    byte[] digest = md.digest();
+    String hex = String.format("%064x", new BigInteger(1, digest));
+    return hex;
   }
 }

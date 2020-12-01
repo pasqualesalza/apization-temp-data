@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator7443991 {
 
-  public static void getValue(char ch) throws RuntimeException {
+  public static void getValue(char ch) throws Exception {
     System.out.println((int) ch);
   }
 }

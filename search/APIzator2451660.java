@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator2451660 {
 
-  public static void applyLoop() throws RuntimeException {
+  public static void applyLoop() throws Exception {
     for (char ch : "xyz".toCharArray()) {}
   }
 }

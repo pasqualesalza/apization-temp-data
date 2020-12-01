@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator4674887 {
 
-  public static void convertString(String s) throws RuntimeException {
+  public static void convertString(String s) throws Exception {
     String[] words = s.split("\\s+");
     for (int i = 0; i < words.length; i++) {
       // You may want to check for a non-word character before blindly

@@ -11,7 +11,7 @@ import java.util.Date;
  */
 public class APIzator43807 {
 
-  public static void object(Date date) throws RuntimeException {
+  public static void object(Date date) throws Exception {
     Calendar calendar = Calendar.getInstance();
     calendar.setTime(date);
   }

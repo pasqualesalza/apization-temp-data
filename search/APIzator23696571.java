@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class APIzator23696571 {
 
-  public static int findElement() throws RuntimeException {
+  public static int findElement() throws Exception {
     List<Integer> list = Arrays.asList(1, 10, 3, 7, 5);
     int a = list
       .stream()

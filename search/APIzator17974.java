@@ -9,7 +9,7 @@ package com.stackoverflow.api;
 public class APIzator17974 {
 
   public static int round(int recordsPerPage, int records)
-    throws RuntimeException {
+    throws Exception {
     return (records + recordsPerPage - 1) / recordsPerPage;
   }
 }

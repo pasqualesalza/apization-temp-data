@@ -8,5 +8,5 @@ package com.stackoverflow.api;
  */
 public class APIzator464886 {
 
-  public static void character(String copyright) throws RuntimeException {}
+  public static void character(String copyright) throws Exception {}
 }

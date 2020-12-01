@@ -13,7 +13,7 @@ import java.util.Set;
  */
 public class APIzator203992 {
 
-  public static void removeElement() throws RuntimeException {
+  public static void removeElement() throws Exception {
     List<String> al = new ArrayList<>();
     // add elements to al, including duplicates
     Set<String> hs = new HashSet<>();

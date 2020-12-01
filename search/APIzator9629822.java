@@ -12,7 +12,7 @@ import java.util.GregorianCalendar;
  */
 public class APIzator9629822 {
 
-  public static Date getDate() throws RuntimeException {
+  public static Date getDate() throws Exception {
     Calendar c = new GregorianCalendar();
     // anything 0 - 23
     c.set(Calendar.HOUR_OF_DAY, 0);

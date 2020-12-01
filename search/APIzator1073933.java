@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class APIzator1073933 {
 
-  public static void convertInt(int[] ints) throws RuntimeException {
+  public static void convertInt(int[] ints) throws Exception {
     List<Integer> intList = new ArrayList<Integer>();
     for (int i : ints) {
       intList.add(i);

@@ -11,7 +11,7 @@ import java.util.Random;
  */
 public class APIzator8938308 {
 
-  public static void sortArray() throws RuntimeException {
+  public static void sortArray() throws Exception {
     int[] array = new int[10];
     Random rand = new Random();
     Arrays.sort(array);

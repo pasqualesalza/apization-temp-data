@@ -9,7 +9,7 @@ package com.stackoverflow.api;
 public class APIzator13386289 {
 
   public static String removeCharacter(int inputString)
-    throws RuntimeException {
+    throws Exception {
     StringBuilder sb = new StringBuilder(inputString);
     return sb.toString();
   }

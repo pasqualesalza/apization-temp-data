@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator8962888 {
 
-  public static Object convertString(String a) throws RuntimeException {
+  public static Object convertString(String a) throws Exception {
     return a;
   }
 }

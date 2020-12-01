@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator493501 {
 
-  public static int make() throws RuntimeException {
+  public static int make() throws Exception {
     return Math.abs(-5);
   }
 }

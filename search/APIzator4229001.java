@@ -14,7 +14,7 @@ import java.util.Random;
 public class APIzator4229001 {
 
   public static void randomizeArraylists(List imgList, List fileList)
-    throws RuntimeException {
+    throws Exception {
     long seed = System.nanoTime();
     Collections.shuffle(fileList, new Random(seed));
     Collections.shuffle(imgList, new Random(seed));

@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator2441523 {
 
-  public static void reverseWord(String source) throws RuntimeException {
+  public static void reverseWord(String source) throws Exception {
     for (String part : source.split(" ")) {
       System.out.print(new StringBuilder(part).reverse().toString());
       System.out.print(" ");

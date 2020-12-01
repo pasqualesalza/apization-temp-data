@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator15275222 {
 
-  public static void break_() throws RuntimeException {
+  public static void break_() throws Exception {
     for (int x = 10; x < 20; x++) {
       // The below condition can be present before or after your sysouts, depending on your needs.
       if (x == 15) {

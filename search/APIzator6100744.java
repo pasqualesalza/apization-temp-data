@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator6100744 {
 
-  public static void way(String s) throws RuntimeException {
+  public static void way(String s) throws Exception {
     int counter = 0;
     for (int i = 0; i < s.length(); i++) {
       if (s.charAt(i) == '$') {

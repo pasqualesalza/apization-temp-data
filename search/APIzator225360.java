@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator225360 {
 
-  public static void splitString(String myString) throws RuntimeException {
+  public static void splitString(String myString) throws Exception {
     myString.split("\\s+");
   }
 }

@@ -12,7 +12,7 @@ import java.util.List;
 public class APIzator2319555 {
 
   public static List<String> way(int listOfTopicAuthors)
-    throws RuntimeException {
+    throws Exception {
     return new ArrayList<String>(listOfTopicAuthors);
   }
 }

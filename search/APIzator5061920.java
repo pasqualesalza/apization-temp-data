@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator5061920 {
 
-  public static void print(int[][] matrix) throws RuntimeException {
+  public static void print(int[][] matrix) throws Exception {
     for (int i = 0; i < matrix.length; i++) {
       for (int j = 0; j < matrix[i].length; j++) {
         System.out.print(matrix[i][j] + " ");

@@ -10,20 +10,17 @@ import java.util.Scanner;
  */
 public class APIzator17691245 {
 
-  public class MyClass {
-
-    public static void readStrings() {
-      Scanner scanner = new Scanner(System.in);
-      int eid, sid;
-      String ename;
-      System.out.println("Enter Employeeid:");
-      eid = scanner.nextInt();
-      // This is needed to pick up the new line
-      scanner.nextLine();
-      System.out.println("Enter EmployeeName:");
-      ename = scanner.nextLine();
-      System.out.println("Enter SupervisiorId:");
-      sid = (scanner.nextInt());
-    }
+  public static void readStrings() {
+    Scanner scanner = new Scanner(System.in);
+    int eid, sid;
+    String ename;
+    System.out.println("Enter Employeeid:");
+    eid = scanner.nextInt();
+    // This is needed to pick up the new line
+    scanner.nextLine();
+    System.out.println("Enter EmployeeName:");
+    ename = scanner.nextLine();
+    System.out.println("Enter SupervisiorId:");
+    sid = (scanner.nextInt());
   }
 }

@@ -9,7 +9,7 @@ package com.stackoverflow.api;
 public class APIzator8695026 {
 
   public static String removePart(String str, String replacement)
-    throws RuntimeException {
+    throws Exception {
     System.out.println(str.replace("(with nice players)", ""));
     int index = str.indexOf("(");
     System.out.println(str.substring(0, index));

@@ -12,11 +12,10 @@ import java.util.List;
  */
 public class APIzator4165883 {
 
-  public static void sortValue(List list) throws RuntimeException {
+  public static void sortValue(List list) throws Exception {
     Collections.sort(
       list,
       new Comparator<String>() {
-
         public int compare(String o1, String o2) {
           Integer i1 = Integer.parseInt(o1);
           Integer i2 = Integer.parseInt(o2);

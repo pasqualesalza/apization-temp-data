@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator2448857 {
 
-  public static void error(int b) throws RuntimeException {
+  public static void error(int b) throws Exception {
     // This is a declaration
     int a;
     // This is an initialization

@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator4452968 {
 
-  public static void find(String s) throws RuntimeException {
+  public static void find(String s) throws Exception {
     Character.isUpperCase(s.codePointAt(0));
   }
 }

@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator9936658 {
 
-  public static long convertString(String str) throws RuntimeException {
+  public static long convertString(String str) throws Exception {
     return Long.parseLong(str);
   }
 }

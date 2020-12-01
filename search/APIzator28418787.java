@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator28418787 {
 
-  public static void beginobject() throws RuntimeException {
+  public static void beginobject() throws Exception {
     {}
   }
 }

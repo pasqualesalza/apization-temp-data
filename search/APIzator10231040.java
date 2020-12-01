@@ -13,7 +13,7 @@ import java.util.List;
 public class APIzator10231040 {
 
   public static List<String> convertString(String[] strings)
-    throws RuntimeException {
+    throws Exception {
     return new ArrayList<String>(Arrays.asList(strings));
   }
 }

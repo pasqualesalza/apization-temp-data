@@ -13,7 +13,7 @@ import java.util.List;
 public class APIzator5483341 {
 
   public static void convertHashmap(HashMap<Integer, String> map)
-    throws RuntimeException {
+    throws Exception {
     List<String> list = new ArrayList<String>(map.values());
     for (String s : list) {
       System.out.println(s);

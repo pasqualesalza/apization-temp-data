@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator3243779 {
 
-  public static String[] getCharacter(String s) throws RuntimeException {
+  public static String[] getCharacter(String s) throws Exception {
     s.substring(s.lastIndexOf(':') + 1);
     s.substring(s.lastIndexOf(' ') + 1);
     return s.split("[^0-9]+");

@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator3511195 {
 
-  public static void classcastexception() throws RuntimeException {
+  public static void classcastexception() throws Exception {
     Object x = new Integer(0);
     System.out.println((String) x);
   }

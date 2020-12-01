@@ -10,7 +10,7 @@ import java.lang.ref.WeakReference;
  */
 public class APIzator299702 {
 
-  public static WeakReference be(int widget) throws RuntimeException {
+  public static WeakReference be(int widget) throws Exception {
     return new WeakReference(widget);
   }
 }

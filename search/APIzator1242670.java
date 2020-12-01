@@ -13,7 +13,7 @@ import javax.swing.JPanel;
  */
 public class APIzator1242670 {
 
-  public static void displayImage(String str1) throws RuntimeException {
+  public static void displayImage(String str1) throws Exception {
     ImageIcon image = new ImageIcon(str1);
     JLabel label = new JLabel("", image, JLabel.CENTER);
     JPanel panel = new JPanel(new BorderLayout());

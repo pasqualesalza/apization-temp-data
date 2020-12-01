@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator2615834 {
 
-  public static void method(String text, String word) throws RuntimeException {
+  public static void method(String text, String word) throws Exception {
     // prints "4"
     System.out.println(text.indexOf(word));
     // prints "22"

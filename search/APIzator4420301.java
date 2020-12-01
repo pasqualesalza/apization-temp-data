@@ -14,9 +14,8 @@ import javax.swing.JTextField;
  */
 public class APIzator4420301 {
 
-  public static void enterPress() throws RuntimeException {
+  public static void enterPress() throws Exception {
     Action action = new AbstractAction() {
-
       @Override
       public void actionPerformed(ActionEvent e) {
         System.out.println("some action");

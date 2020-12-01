@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
  */
 public class APIzator7938173 {
 
-  public static void matching(String URL) throws RuntimeException {
+  public static void matching(String URL) throws Exception {
     Pattern pattern = Pattern.compile("/\\{\\w+\\}/");
     Matcher matcher = pattern.matcher(URL);
     if (matcher.find()) {

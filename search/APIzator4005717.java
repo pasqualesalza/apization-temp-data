@@ -8,15 +8,12 @@ package com.stackoverflow.api;
  */
 public class APIzator4005717 {
 
-  public class ConsoleDemo {
-
-    public static void consolewriteline(String[] data) {
-      for (String s : data) {
-        System.out.println(s);
-      }
-      for (String s : data) {
-        System.console().writer().println(s);
-      }
+  public static void consolewriteline(String[] data) {
+    for (String s : data) {
+      System.out.println(s);
+    }
+    for (String s : data) {
+      System.console().writer().println(s);
     }
   }
 }

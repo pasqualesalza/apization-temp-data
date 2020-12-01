@@ -8,5 +8,5 @@ package com.stackoverflow.api;
  */
 public class APIzator10430082 {
 
-  public static void difference(char c, String s) throws RuntimeException {}
+  public static void difference(char c, String s) throws Exception {}
 }

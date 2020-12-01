@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator11145854 {
 
-  public static void convertString(String myString) throws RuntimeException {
+  public static void convertString(String myString) throws Exception {
     String str = myString.split(" ")[0];
     str = str.replace("\\", "");
     String[] arr = str.split("u");

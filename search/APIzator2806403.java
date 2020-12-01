@@ -10,7 +10,7 @@ import java.util.Calendar;
  */
 public class APIzator2806403 {
 
-  public static void program() throws RuntimeException {
+  public static void program() throws Exception {
     Calendar cal = Calendar.getInstance();
     cal.clear(Calendar.HOUR_OF_DAY);
     cal.clear(Calendar.AM_PM);

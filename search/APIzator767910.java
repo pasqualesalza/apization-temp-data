@@ -9,7 +9,7 @@ package com.stackoverflow.api;
 public class APIzator767910 {
 
   public static int occurrence(String str, String findStr)
-    throws RuntimeException {
+    throws Exception {
     int lastIndex = 0;
     int count = 0;
     while (lastIndex != -1) {

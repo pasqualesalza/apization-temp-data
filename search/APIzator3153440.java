@@ -8,11 +8,8 @@ package com.stackoverflow.api;
  */
 public class APIzator3153440 {
 
-  public class Test {
-
-    public static String getDirectory() {
-      final String dir = System.getProperty("user.dir");
-      return dir;
-    }
+  public static String getDirectory() {
+    final String dir = System.getProperty("user.dir");
+    return dir;
   }
 }

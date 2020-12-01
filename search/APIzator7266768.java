@@ -12,11 +12,10 @@ import javax.net.ssl.SSLSession;
  */
 public class APIzator7266768 {
 
-  public static void sslexception() throws RuntimeException {
+  public static void sslexception() throws Exception {
     // Do not do this in production!!!
     HttpsURLConnection.setDefaultHostnameVerifier(
       new HostnameVerifier() {
-
         public boolean verify(String string, SSLSession ssls) {
           return true;
         }

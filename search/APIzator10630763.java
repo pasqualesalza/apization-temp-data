@@ -10,7 +10,7 @@ import javax.swing.JButton;
  */
 public class APIzator10630763 {
 
-  public static void setSize() throws RuntimeException {
+  public static void setSize() throws Exception {
     JButton b = new JButton();
     b.setFont(b.getFont().deriveFont(18.0f));
   }

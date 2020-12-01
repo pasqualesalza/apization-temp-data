@@ -14,7 +14,7 @@ import java.util.GregorianCalendar;
 public class APIzator16559066 {
 
   public static int getDifference(Date startDate, Date endDate)
-    throws RuntimeException {
+    throws Exception {
     Calendar startCalendar = new GregorianCalendar();
     startCalendar.setTime(startDate);
     Calendar endCalendar = new GregorianCalendar();

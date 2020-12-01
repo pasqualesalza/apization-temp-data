@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator2538803 {
 
-  public static void displayOutput(int val) throws RuntimeException {
+  public static void displayOutput(int val) throws Exception {
     System.out.printf("%.2f", val);
   }
 }

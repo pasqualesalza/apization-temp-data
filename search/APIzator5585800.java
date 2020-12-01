@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator5585800 {
 
-  public static int convertString(String myString) throws RuntimeException {
+  public static int convertString(String myString) throws Exception {
     return Integer.parseInt(myString);
   }
 }

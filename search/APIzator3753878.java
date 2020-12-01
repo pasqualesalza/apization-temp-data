@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator3753878 {
 
-  public static void concatenateString(int theNumber) throws RuntimeException {
+  public static void concatenateString(int theNumber) throws Exception {
     System.out.println("Your number is " + theNumber + "!");
   }
 }

@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator7687341 {
 
-  public static void java(int sum) throws RuntimeException {
+  public static void java(int sum) throws Exception {
     // Create an array with room for 100 integers
     int[] nums = new int[100];
     for (int n : nums) sum += n;

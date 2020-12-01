@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator1962195 {
 
-  public static void deleteCharacter(String str) throws RuntimeException {
+  public static void deleteCharacter(String str) throws Exception {
     str = str.replaceAll("[,.]", "");
   }
 }

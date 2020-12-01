@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator4968343 {
 
-  public static int java(String element) throws RuntimeException {
+  public static int java(String element) throws Exception {
     int x = Character.getNumericValue(element.charAt(2));
     return x;
   }

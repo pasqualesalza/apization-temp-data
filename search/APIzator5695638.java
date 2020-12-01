@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator5695638 {
 
-  public static void removeCharacter(String id) throws RuntimeException {
+  public static void removeCharacter(String id) throws Exception {
     id = id.replace(".xml", "");
   }
 }

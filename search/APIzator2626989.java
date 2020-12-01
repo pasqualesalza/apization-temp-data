@@ -10,7 +10,7 @@ import java.util.Random;
  */
 public class APIzator2626989 {
 
-  public static void be(String alphabet) throws RuntimeException {
+  public static void be(String alphabet) throws Exception {
     // ...
     Random r = new Random();
     for (int i = 0; i < 50; i++) {

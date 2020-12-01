@@ -11,10 +11,9 @@ import java.net.PasswordAuthentication;
  */
 public class APIzator496707 {
 
-  public static void connect() throws RuntimeException {
+  public static void connect() throws Exception {
     Authenticator.setDefault(
       new Authenticator() {
-
         protected PasswordAuthentication getPasswordAuthentication() {
           return new PasswordAuthentication(
             "username",

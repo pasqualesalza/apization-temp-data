@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator17121338 {
 
-  public static String work(int myObj) throws RuntimeException {
+  public static String work(int myObj) throws Exception {
     return new StringBuilder("foo1true").append(myObj).toString();
   }
 }

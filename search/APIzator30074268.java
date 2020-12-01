@@ -12,13 +12,10 @@ import java.io.PrintWriter;
  */
 public class APIzator30074268 {
 
-  public class CSV {
-
-    public static void string(StringBuilder sb) throws FileNotFoundException {
-      PrintWriter pw = new PrintWriter(new File("test.csv"));
-      pw.write(sb.toString());
-      pw.close();
-      System.out.println("done!");
-    }
+  public static void string(StringBuilder sb) throws FileNotFoundException {
+    PrintWriter pw = new PrintWriter(new File("test.csv"));
+    pw.write(sb.toString());
+    pw.close();
+    System.out.println("done!");
   }
 }

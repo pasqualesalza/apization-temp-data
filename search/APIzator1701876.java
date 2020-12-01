@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator1701876 {
 
-  public static void backslashe(String string) throws RuntimeException {
+  public static void backslashe(String string) throws Exception {
     string.replaceAll("\\\\", "\\\\\\\\");
     string.replace("\\", "\\\\");
   }

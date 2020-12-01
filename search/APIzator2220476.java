@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator2220476 {
 
-  public static String getValue() throws RuntimeException {
+  public static String getValue() throws Exception {
     return Integer.toHexString('÷' | 0x10000).substring(1);
   }
 }

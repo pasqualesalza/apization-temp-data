@@ -9,7 +9,7 @@ package com.stackoverflow.api;
 public class APIzator766564 {
 
   public static void useVararg(int myInt, int myString)
-    throws RuntimeException {
+    throws Exception {
     String.format("This is an integer: %d", myInt);
     String.format("This is an integer: %d and a string: %s", myInt, myString);
   }

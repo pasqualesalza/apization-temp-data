@@ -12,7 +12,7 @@ import java.util.List;
 public class APIzator26195047 {
 
   public static String way(String elements, String delimiter, String[] array)
-    throws RuntimeException {
+    throws Exception {
     String.join(delimiter, elements);
     String joined1 = String.join(",", "a", "b", "c");
     String joined2 = String.join(",", array);

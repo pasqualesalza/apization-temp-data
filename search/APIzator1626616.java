@@ -12,10 +12,9 @@ import java.net.PasswordAuthentication;
 public class APIzator1626616 {
 
   public static void proxy(String authUser, String authPassword)
-    throws RuntimeException {
+    throws Exception {
     Authenticator.setDefault(
       new Authenticator() {
-
         @Override
         public PasswordAuthentication getPasswordAuthentication() {
           return new PasswordAuthentication(

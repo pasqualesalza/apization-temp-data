@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator921412 {
 
-  public static int be(String[] array) throws RuntimeException {
+  public static int be(String[] array) throws Exception {
     return array.length;
   }
 }

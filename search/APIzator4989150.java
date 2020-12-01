@@ -11,7 +11,7 @@ import java.util.Set;
  */
 public class APIzator4989150 {
 
-  public static String removeDuplicate(String string) throws RuntimeException {
+  public static String removeDuplicate(String string) throws Exception {
     char[] chars = string.toCharArray();
     Set<Character> charSet = new LinkedHashSet<Character>();
     for (char c : chars) {

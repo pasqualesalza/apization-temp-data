@@ -8,8 +8,5 @@ package com.stackoverflow.api;
  */
 public class APIzator716159 {
 
-  public class YourClass {
-
-    public static void argument() {}
-  }
+  public static void argument() {}
 }

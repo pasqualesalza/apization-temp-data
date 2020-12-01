@@ -10,6 +10,7 @@ import java.util.regex.Pattern;
  * @see <a href="https://stackoverflow.com/a/237068">https://stackoverflow.com/a/237068</a>
  */
 public class APIzator237068 {
+
   private static final Pattern p = Pattern.compile("^([a-zA-Z]+)([0-9]+)(.*)");
 
   public static void useExpression() {

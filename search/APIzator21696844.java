@@ -14,7 +14,7 @@ import java.util.stream.Stream;
  */
 public class APIzator21696844 {
 
-  public static void declareArraylist() throws RuntimeException {
+  public static void declareArraylist() throws Exception {
     List<String> x = new ArrayList<>(Arrays.asList("xyz", "abc"));
     Stream.of("xyz", "abc").collect(Collectors.toList());
   }

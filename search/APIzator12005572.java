@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator12005572 {
 
-  public static int java() throws RuntimeException {
+  public static int java() throws Exception {
     return (int) Long.parseLong("ffff8000", 16);
   }
 }

@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator17575926 {
 
-  public static char[] way() throws RuntimeException {
+  public static char[] way() throws Exception {
     return "abcdefghijklmnopqrstuvwxyz".toCharArray();
   }
 }

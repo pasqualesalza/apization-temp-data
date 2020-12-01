@@ -10,7 +10,7 @@ import java.util.Calendar;
  */
 public class APIzator9397277 {
 
-  public static void day() throws RuntimeException {
+  public static void day() throws Exception {
     Calendar.getInstance().getActualMaximum(Calendar.DAY_OF_MONTH);
   }
 }

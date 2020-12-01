@@ -15,8 +15,7 @@ public class APIzator13259563 {
   public static void maintainList(
     Set<Integer> linkedHashSet,
     Set<Integer> treeSet
-  )
-    throws RuntimeException {
+  ) throws Exception {
     for (int i : linkedHashSet) {
       System.out.println(i);
     }

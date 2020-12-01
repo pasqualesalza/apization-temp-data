@@ -10,18 +10,15 @@ import java.io.IOException;
  */
 public class APIzator15446718 {
 
-  public class MainClass {
-
-    public static void be() {
-      int inChar;
-      System.out.println("Enter a Character:");
-      try {
-        inChar = System.in.read();
-        System.out.print("You entered ");
-        System.out.println(inChar);
-      } catch (IOException e) {
-        System.out.println("Error reading from user");
-      }
+  public static void be() {
+    int inChar;
+    System.out.println("Enter a Character:");
+    try {
+      inChar = System.in.read();
+      System.out.print("You entered ");
+      System.out.println(inChar);
+    } catch (IOException e) {
+      System.out.println("Error reading from user");
     }
   }
 }

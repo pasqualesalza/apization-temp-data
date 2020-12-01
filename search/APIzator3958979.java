@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator3958979 {
 
-  public static String removeSpace(String yourString) throws RuntimeException {
+  public static String removeSpace(String yourString) throws Exception {
     yourString = yourString.replaceAll("\\s+", " ");
     return "lorem  ipsum   dolor \n sit.".replaceAll("\\s+", " ");
   }

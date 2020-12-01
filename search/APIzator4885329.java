@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator4885329 {
 
-  public static void stringformat(int myDouble) throws RuntimeException {
+  public static void stringformat(int myDouble) throws Exception {
     String.format("%1$,.2f", myDouble);
   }
 }

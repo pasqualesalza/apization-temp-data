@@ -10,7 +10,7 @@ import java.util.regex.PatternSyntaxException;
  */
 public class APIzator6086393 {
 
-  public static void string(String input) throws RuntimeException {
+  public static void string(String input) throws Exception {
     try {
       String[] splitArray = input.split("\\s+");
     } catch (PatternSyntaxException ex) {

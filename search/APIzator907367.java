@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator907367 {
 
-  public static String explanation() throws RuntimeException {
+  public static String explanation() throws Exception {
     Object i = Integer.valueOf(42);
     return (String) i;
   }

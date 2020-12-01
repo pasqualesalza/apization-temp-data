@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator9963574 {
 
-  public static String convertDouble(double total) throws RuntimeException {
+  public static String convertDouble(double total) throws Exception {
     return String.valueOf(total);
   }
 }

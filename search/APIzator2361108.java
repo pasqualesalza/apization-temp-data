@@ -8,10 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator2361108 {
 
-  public class HelloWorld {
-
-    public static void compile() {
-      System.out.println("Hello World!");
-    }
+  public static void compile() {
+    System.out.println("Hello World!");
   }
 }

@@ -8,5 +8,5 @@ package com.stackoverflow.api;
  */
 public class APIzator3559079 {
 
-  public static void enterQuote(String value) throws RuntimeException {}
+  public static void enterQuote(String value) throws Exception {}
 }

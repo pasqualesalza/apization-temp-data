@@ -10,7 +10,7 @@ import java.util.ArrayList;
  */
 public class APIzator16730401 {
 
-  public static void addArraylist() throws RuntimeException {
+  public static void addArraylist() throws Exception {
     ArrayList<ArrayList<String>> nodes = new ArrayList<ArrayList<String>>();
     ArrayList<String> nodeList = new ArrayList<String>();
     nodes.add(nodeList);

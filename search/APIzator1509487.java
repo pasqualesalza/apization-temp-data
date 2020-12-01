@@ -10,7 +10,7 @@ import java.util.TreeMap;
  */
 public class APIzator1509487 {
 
-  public static String getEntry() throws RuntimeException {
+  public static String getEntry() throws Exception {
     TreeMap<String, String> myMap = new TreeMap<String, String>();
     String first = myMap.firstEntry().getValue();
     return myMap.get(myMap.firstKey());

@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator6652705 {
 
-  public static String lead(String oldString) throws RuntimeException {
+  public static String lead(String oldString) throws Exception {
     return oldString.trim();
   }
 }

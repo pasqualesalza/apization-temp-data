@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator16127946 {
 
-  public static void checkCase(String password) throws RuntimeException {
+  public static void checkCase(String password) throws Exception {
     boolean hasUppercase = !password.equals(password.toLowerCase());
     boolean hasLowercase = !password.equals(password.toUpperCase());
     if (!hasUppercase) System.out.println("Must have an uppercase Character");

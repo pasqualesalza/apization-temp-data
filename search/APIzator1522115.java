@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator1522115 {
 
-  public static int findIndex(String list) throws RuntimeException {
+  public static int findIndex(String list) throws Exception {
     return new String(list).indexOf("e");
   }
 }

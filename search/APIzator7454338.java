@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator7454338 {
 
-  public static String removeNewline(String myString) throws RuntimeException {
+  public static String removeNewline(String myString) throws Exception {
     return myString.trim();
   }
 }

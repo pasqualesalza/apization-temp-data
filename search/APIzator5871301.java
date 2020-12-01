@@ -9,7 +9,7 @@ package com.stackoverflow.api;
 public class APIzator5871301 {
 
   public static void ssl(String path_to_your_cacerts_file)
-    throws RuntimeException {
+    throws Exception {
     System.setProperty("javax.net.ssl.trustStore", path_to_your_cacerts_file);
   }
 }

@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator10751663 {
 
-  public static void insertValue(int intSize) throws RuntimeException {
+  public static void insertValue(int intSize) throws Exception {
     String[][] shades = new String[intSize][intSize];
     // print array in rectangular form
     for (int r = 0; r < shades.length; r++) {

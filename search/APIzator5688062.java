@@ -10,7 +10,7 @@ import java.nio.charset.StandardCharsets;
  */
 public class APIzator5688062 {
 
-  public static byte[] convertString(String s) throws RuntimeException {
+  public static byte[] convertString(String s) throws Exception {
     return s.getBytes(StandardCharsets.US_ASCII);
   }
 }

@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class APIzator7488676 {
 
-  public static List<String> convertString(String str) throws RuntimeException {
+  public static List<String> convertString(String str) throws Exception {
     return Arrays.asList(str.split("\\s*,\\s*"));
   }
 }

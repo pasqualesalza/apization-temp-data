@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator5067969 {
 
-  public static String be(String mystring) throws RuntimeException {
+  public static String be(String mystring) throws Exception {
     String[] arr = mystring.split(" ", 2);
     // the
     String firstWord = arr[0];

@@ -11,7 +11,7 @@ import java.util.Date;
  */
 public class APIzator1908419 {
 
-  public static long cut(Date dateObject) throws RuntimeException {
+  public static long cut(Date dateObject) throws Exception {
     // locale-specific
     Calendar cal = Calendar.getInstance();
     cal.setTime(dateObject);

@@ -8,8 +8,5 @@ package com.stackoverflow.api;
  */
 public class APIzator3039805 {
 
-  public class Foo {
-
-    public static void haveSize(Object[] array) {}
-  }
+  public static void haveSize(Object[] array) {}
 }

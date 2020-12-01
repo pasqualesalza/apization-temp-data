@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator1657925 {
 
-  public static void throwDivide(int divisor) throws RuntimeException {
+  public static void throwDivide(int divisor) throws Exception {
     if (divisor == 0) {
       throw new IllegalArgumentException("Argument 'divisor' is 0");
     }

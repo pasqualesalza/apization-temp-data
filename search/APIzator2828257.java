@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator2828257 {
 
-  public static String map(String map) throws RuntimeException {
+  public static String map(String map) throws Exception {
     return map.toString();
   }
 }

@@ -8,7 +8,7 @@ package com.stackoverflow.api;
  */
 public class APIzator14316548 {
 
-  public static String java(String example) throws RuntimeException {
+  public static String java(String example) throws Exception {
     return example.substring(example.lastIndexOf("/") + 1);
   }
 }
