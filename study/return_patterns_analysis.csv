@@ -1,4 +1,4 @@
-"file_name","so_answer_id","gh_file_id","applied_pattern","expected_pattern"
+"file_name","so_answer_id","gh_file_id","human_pattern","apizator_pattern"
 "so#44660943_gh#aba788e54748b4fc32afca89ff2f15b622b7c224.html","44660943","aba788e54748b4fc32afca89ff2f15b622b7c224","none","none"
 "so#42104000_gh#8c8eb2fd98a682e4588b95ed2f5954e842036fe6.html","42104000","8c8eb2fd98a682e4588b95ed2f5954e842036fe6","none","none"
 "so#42024257_gh#c8559b165f8d27bebdcdce953d752515688ef190.html","42024257","c8559b165f8d27bebdcdce953d752515688ef190","latest","latest"
